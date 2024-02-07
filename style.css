@@ -1,0 +1,92 @@
+body {
+    background: #212529;
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    border-bottom: 1px solid #757575;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#social {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 50px;
+}
+
+#social img{
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+}
+
+header h1{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Sixtyfour', sans-serif;
+    color: white;
+    margin-left: 50px;
+}
+
+#barnav {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+#barnav div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 15px;
+    gap: 200px;
+    position: sticky;
+}
+
+#barnav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding: 5px;
+}
+
+#barnav a:hover {
+    background: black;
+    border-radius: 15px;
+}
+
+#presentation{
+    box-sizing: border-box;
+    margin-bottom: 15%;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+#presentation img{
+    width: 300px;
+    height: 300px;
+    align-self: center;
+    border-radius: 20px;
+}
+
+#presentation p{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    align-items: center;
+    margin-right: 50px;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Sixtyfour', sans-serif;
+    color: #e3d8d8;
+}
