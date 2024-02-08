@@ -62,7 +62,7 @@ header h1{
 
 #presentation{
     box-sizing: border-box;
-    margin-bottom: 15%;
+    margin-bottom: 14%;
     display: flex;
     gap: 100px;
     justify-content: center;
@@ -90,3 +90,20 @@ header h1{
     font-family: 'Sixtyfour', sans-serif;
     color: #e3d8d8;
 }
+
+main section h3{
+    font-family: 'Archivo Black', sans-serif;
+    display: flex;
+    flex-flow: column;
+    margin-left: 235px;
+    font-size: 30px;
+    width: 380px;
+    color: white;
+}
+
+main section article {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Cambiado de 'start' a 'flex-start' */
+}
+
